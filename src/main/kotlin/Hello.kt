@@ -9,9 +9,11 @@ fun main() {
     //Constant
     val app = 44
 
+    //String connection
     println("Result: $result")
     result.toInt()
 
+    //When (Switch in java)
     var number = 6
     var num = when(number){
         1 -> "One"
@@ -23,4 +25,22 @@ fun main() {
     }
 
     println(num)
+
+    //while,do while -> same with java
+    //For loop
+    for(i in 1..10){
+        println(i)
+    }
+
+    //For loop with odd number
+    // i + 2
+    for(i in 1..10 step 2){
+        println(i)
+    }
+
+    //Foreach loop
+    var fruits = arrayOf("Apple","Orange","Pineapple","Guava")
+    for(fruit in fruits){
+        println(fruit)
+    }
 }
